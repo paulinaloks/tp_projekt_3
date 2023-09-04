@@ -1,0 +1,1156 @@
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_ece38/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ece38.dir\build.make CMakeFiles/cmTC_ece38.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ece38.dir/CheckFunctionExists.c.obj
+C:\msys64\mingw64\bin\gcc.exe   -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles\cmTC_ece38.dir\CheckFunctionExists.c.obj -c "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckFunctionExists.c"
+Linking C executable cmTC_ece38.exe
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ece38.dir\link.txt --verbose=1
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_ece38.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\cmTC_ece38.dir/objects.a @CMakeFiles\cmTC_ece38.dir\objects1.rsp
+C:\msys64\mingw64\bin\gcc.exe  -DCHECK_FUNCTION_EXISTS=sgemm_ -Wl,--whole-archive CMakeFiles\cmTC_ece38.dir/objects.a -Wl,--no-whole-archive -o cmTC_ece38.exe -Wl,--out-implib,libcmTC_ece38.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_ece38.dir\linklibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles\cmTC_ece38.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `sgemm_'
+collect2.exe: error: ld returned 1 exit status
+mingw32-make[1]: *** [CMakeFiles\cmTC_ece38.dir\build.make:100: cmTC_ece38.exe] Error 1
+mingw32-make[1]: Leaving directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_ece38/fast] Error 2
+
+
+
+Determining if the __fbufsize exist failed with the following output:
+Change Dir: C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_dd08c/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_dd08c.dir\build.make CMakeFiles/cmTC_dd08c.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dd08c.dir/CheckSymbolExists.c.obj
+C:\msys64\mingw64\bin\gcc.exe    -o CMakeFiles\cmTC_dd08c.dir\CheckSymbolExists.c.obj -c "C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:2:10: fatal error: stdio_ext.h: No such file or directory
+    2 | #include <stdio_ext.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+mingw32-make[1]: *** [CMakeFiles\cmTC_dd08c.dir\build.make:77: CMakeFiles/cmTC_dd08c.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_dd08c/fast] Error 2
+
+
+File C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio_ext.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __fbufsize
+  return ((int*)(&__fbufsize))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the __GLIBC__ exist failed with the following output:
+Change Dir: C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_1032b/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_1032b.dir\build.make CMakeFiles/cmTC_1032b.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1032b.dir/CheckSymbolExists.c.obj
+C:\msys64\mingw64\bin\gcc.exe    -o CMakeFiles\cmTC_1032b.dir\CheckSymbolExists.c.obj -c "C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: error: '__GLIBC__' undeclared (first use in this function); did you mean '__LINE__'?
+    8 |   return ((int*)(&__GLIBC__))[argc];
+      |                   ^~~~~~~~~
+      |                   __LINE__
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make[1]: *** [CMakeFiles\cmTC_1032b.dir\build.make:77: CMakeFiles/cmTC_1032b.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_1032b/fast] Error 2
+
+
+File C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __GLIBC__
+  return ((int*)(&__GLIBC__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_X86 failed with the following output:
+Change Dir: C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_2ed39/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_2ed39.dir\build.make CMakeFiles/cmTC_2ed39.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2ed39.dir/src.c.obj
+C:\msys64\mingw64\bin\gcc.exe -DCHECK_CPU_ARCHITECTURE_X86   -o CMakeFiles\cmTC_2ed39.dir\src.c.obj -c "C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\src.c"
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\src.c: In function 'main':
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\src.c:6:3: error: 'choke' undeclared (first use in this function)
+    6 |   choke
+      |   ^~~~~
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\src.c:6:3: note: each undeclared identifier is reported only once for each function it appears in
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\src.c:6:8: error: expected ';' before '}' token
+    6 |   choke
+      |        ^
+      |        ;
+    7 | #endif
+    8 | }
+      | ~       
+mingw32-make[1]: *** [CMakeFiles\cmTC_2ed39.dir\build.make:77: CMakeFiles/cmTC_2ed39.dir/src.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_2ed39/fast] Error 2
+
+
+Source file was:
+
+int main(int argc, char *argv[]) {
+#if defined(__i386__) || defined(__i486__) || defined(__i586__) || defined(__i686__) ||defined( __i386) || defined(_M_IX86)
+  return 0;
+#else
+  choke
+#endif
+}
+
+Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_ARM32 failed with the following output:
+Change Dir: C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_a810d/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_a810d.dir\build.make CMakeFiles/cmTC_a810d.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a810d.dir/src.c.obj
+C:\msys64\mingw64\bin\gcc.exe -DCHECK_CPU_ARCHITECTURE_ARM32   -o CMakeFiles\cmTC_a810d.dir\src.c.obj -c "C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\src.c"
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\src.c: In function 'main':
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\src.c:6:3: error: 'choke' undeclared (first use in this function)
+    6 |   choke
+      |   ^~~~~
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\src.c:6:3: note: each undeclared identifier is reported only once for each function it appears in
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\src.c:6:8: error: expected ';' before '}' token
+    6 |   choke
+      |        ^
+      |        ;
+    7 | #endif
+    8 | }
+      | ~       
+mingw32-make[1]: *** [CMakeFiles\cmTC_a810d.dir\build.make:77: CMakeFiles/cmTC_a810d.dir/src.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_a810d/fast] Error 2
+
+
+Source file was:
+
+int main(int argc, char *argv[]) {
+#if defined(__arm__) || defined(_M_ARM)
+  return 0;
+#else
+  choke
+#endif
+}
+
+Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_ARM64 failed with the following output:
+Change Dir: C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_f7536/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f7536.dir\build.make CMakeFiles/cmTC_f7536.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f7536.dir/src.c.obj
+C:\msys64\mingw64\bin\gcc.exe -DCHECK_CPU_ARCHITECTURE_ARM64   -o CMakeFiles\cmTC_f7536.dir\src.c.obj -c "C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\src.c"
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\src.c: In function 'main':
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\src.c:6:3: error: 'choke' undeclared (first use in this function)
+    6 |   choke
+      |   ^~~~~
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\src.c:6:3: note: each undeclared identifier is reported only once for each function it appears in
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\src.c:6:8: error: expected ';' before '}' token
+    6 |   choke
+      |        ^
+      |        ;
+    7 | #endif
+    8 | }
+      | ~       
+mingw32-make[1]: *** [CMakeFiles\cmTC_f7536.dir\build.make:77: CMakeFiles/cmTC_f7536.dir/src.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_f7536/fast] Error 2
+
+
+Source file was:
+
+int main(int argc, char *argv[]) {
+#if defined(__aarch64__) || defined(_M_ARM64)
+  return 0;
+#else
+  choke
+#endif
+}
+
+Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_LOONGARCH64 failed with the following output:
+Change Dir: C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_e2977/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_e2977.dir\build.make CMakeFiles/cmTC_e2977.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e2977.dir/src.c.obj
+C:\msys64\mingw64\bin\gcc.exe -DCHECK_CPU_ARCHITECTURE_LOONGARCH64   -o CMakeFiles\cmTC_e2977.dir\src.c.obj -c "C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\src.c"
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\src.c: In function 'main':
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\src.c:6:3: error: 'choke' undeclared (first use in this function)
+    6 |   choke
+      |   ^~~~~
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\src.c:6:3: note: each undeclared identifier is reported only once for each function it appears in
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\src.c:6:8: error: expected ';' before '}' token
+    6 |   choke
+      |        ^
+      |        ;
+    7 | #endif
+    8 | }
+      | ~       
+mingw32-make[1]: *** [CMakeFiles\cmTC_e2977.dir\build.make:77: CMakeFiles/cmTC_e2977.dir/src.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_e2977/fast] Error 2
+
+
+Source file was:
+
+int main(int argc, char *argv[]) {
+#if defined(__loongarch64)
+  return 0;
+#else
+  choke
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_GCC_PREFERRED_STACK_BOUNDARY failed with the following output:
+Change Dir: C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_97f21/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_97f21.dir\build.make CMakeFiles/cmTC_97f21.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_97f21.dir/src.c.obj
+C:\msys64\mingw64\bin\gcc.exe -DHAVE_GCC_PREFERRED_STACK_BOUNDARY  -idirafter "C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/SDL/src/video/khronos" -mpreferred-stack-boundary=2 -o CMakeFiles\cmTC_97f21.dir\src.c.obj -c "C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\src.c"
+cc1.exe: error: '-mpreferred-stack-boundary=2' is not between 3 and 4
+mingw32-make[1]: *** [CMakeFiles\cmTC_97f21.dir\build.make:77: CMakeFiles/cmTC_97f21.dir/src.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_97f21/fast] Error 2
+
+
+Source file was:
+int x = 0; int main(int argc, char **argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_ALTIVEC_H_HDR failed with the following output:
+Change Dir: C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_ef18c/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ef18c.dir\build.make CMakeFiles/cmTC_ef18c.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ef18c.dir/src.c.obj
+C:\msys64\mingw64\bin\gcc.exe -DHAVE_ALTIVEC_H_HDR  -idirafter "C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/SDL/src/video/khronos" -maltivec -o CMakeFiles\cmTC_ef18c.dir\src.c.obj -c "C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\src.c"
+gcc.exe: error: unrecognized command-line option '-maltivec'
+mingw32-make[1]: *** [CMakeFiles\cmTC_ef18c.dir\build.make:77: CMakeFiles/cmTC_ef18c.dir/src.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_ef18c/fast] Error 2
+
+
+Source file was:
+
+          #include <altivec.h>
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { return 0; }
+Performing C SOURCE FILE Test CPU_SUPPORTS_ALTIVEC failed with the following output:
+Change Dir: C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_736d7/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_736d7.dir\build.make CMakeFiles/cmTC_736d7.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_736d7.dir/src.c.obj
+C:\msys64\mingw64\bin\gcc.exe -DCPU_SUPPORTS_ALTIVEC  -idirafter "C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/SDL/src/video/khronos" -maltivec -o CMakeFiles\cmTC_736d7.dir\src.c.obj -c "C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\src.c"
+gcc.exe: error: unrecognized command-line option '-maltivec'
+mingw32-make[1]: *** [CMakeFiles\cmTC_736d7.dir\build.make:77: CMakeFiles/cmTC_736d7.dir/src.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_736d7/fast] Error 2
+
+
+Source file was:
+
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { return 0; }
+Determining if the include file libunwind.h exists failed with the following output:
+Change Dir: C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_a879e/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_a879e.dir\build.make CMakeFiles/cmTC_a879e.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a879e.dir/CheckIncludeFile.c.obj
+C:\msys64\mingw64\bin\gcc.exe   -idirafter "C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_a879e.dir\CheckIncludeFile.c.obj -c "C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:10: fatal error: libunwind.h: No such file or directory
+    1 | #include <libunwind.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+mingw32-make[1]: *** [CMakeFiles\cmTC_a879e.dir\build.make:77: CMakeFiles/cmTC_a879e.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_a879e/fast] Error 2
+
+
+
+Determining if the include file linux/input.h exists failed with the following output:
+Change Dir: C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_69208/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_69208.dir\build.make CMakeFiles/cmTC_69208.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_69208.dir/CheckIncludeFile.c.obj
+C:\msys64\mingw64\bin\gcc.exe   -idirafter "C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_69208.dir\CheckIncludeFile.c.obj -c "C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:10: fatal error: linux/input.h: No such file or directory
+    1 | #include <linux/input.h>
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+mingw32-make[1]: *** [CMakeFiles\cmTC_69208.dir\build.make:77: CMakeFiles/cmTC_69208.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_69208/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test HAVE_MPROTECT failed with the following output:
+Change Dir: C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_98ca5/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_98ca5.dir\build.make CMakeFiles/cmTC_98ca5.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_98ca5.dir/src.c.obj
+C:\msys64\mingw64\bin\gcc.exe -DHAVE_MPROTECT  -idirafter "C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_98ca5.dir\src.c.obj -c "C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\src.c"
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\src.c:2:39: fatal error: sys/mman.h: No such file or directory
+    2 |                              #include <sys/mman.h>
+      |                                       ^~~~~~~~~~~~
+compilation terminated.
+mingw32-make[1]: *** [CMakeFiles\cmTC_98ca5.dir\build.make:77: CMakeFiles/cmTC_98ca5.dir/src.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_98ca5/fast] Error 2
+
+
+Source file was:
+#include <sys/types.h>
+                             #include <sys/mman.h>
+                             int main(void) { return 0; }
+Determining if the setenv exist failed with the following output:
+Change Dir: C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_ea177/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ea177.dir\build.make CMakeFiles/cmTC_ea177.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ea177.dir/CheckSymbolExists.c.obj
+C:\msys64\mingw64\bin\gcc.exe   -idirafter "C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_ea177.dir\CheckSymbolExists.c.obj -c "C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'setenv' undeclared (first use in this function); did you mean 'getenv'?
+   14 |   return ((int*)(&setenv))[argc];
+      |                   ^~~~~~
+      |                   getenv
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make[1]: *** [CMakeFiles\cmTC_ea177.dir\build.make:77: CMakeFiles/cmTC_ea177.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_ea177/fast] Error 2
+
+
+File C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setenv
+  return ((int*)(&setenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the unsetenv exist failed with the following output:
+Change Dir: C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_057de/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_057de.dir\build.make CMakeFiles/cmTC_057de.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_057de.dir/CheckSymbolExists.c.obj
+C:\msys64\mingw64\bin\gcc.exe   -idirafter "C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_057de.dir\CheckSymbolExists.c.obj -c "C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'unsetenv' undeclared (first use in this function)
+   14 |   return ((int*)(&unsetenv))[argc];
+      |                   ^~~~~~~~
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make[1]: *** [CMakeFiles\cmTC_057de.dir\build.make:77: CMakeFiles/cmTC_057de.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_057de/fast] Error 2
+
+
+File C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef unsetenv
+  return ((int*)(&unsetenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the bcopy exist failed with the following output:
+Change Dir: C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_96d89/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_96d89.dir\build.make CMakeFiles/cmTC_96d89.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_96d89.dir/CheckSymbolExists.c.obj
+C:\msys64\mingw64\bin\gcc.exe   -idirafter "C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_96d89.dir\CheckSymbolExists.c.obj -c "C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'bcopy' undeclared (first use in this function)
+   14 |   return ((int*)(&bcopy))[argc];
+      |                   ^~~~~
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make[1]: *** [CMakeFiles\cmTC_96d89.dir\build.make:77: CMakeFiles/cmTC_96d89.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_96d89/fast] Error 2
+
+
+File C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef bcopy
+  return ((int*)(&bcopy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strlcpy exist failed with the following output:
+Change Dir: C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_79d48/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_79d48.dir\build.make CMakeFiles/cmTC_79d48.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_79d48.dir/CheckSymbolExists.c.obj
+C:\msys64\mingw64\bin\gcc.exe   -idirafter "C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_79d48.dir\CheckSymbolExists.c.obj -c "C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'strlcpy' undeclared (first use in this function); did you mean 'strncpy'?
+   14 |   return ((int*)(&strlcpy))[argc];
+      |                   ^~~~~~~
+      |                   strncpy
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make[1]: *** [CMakeFiles\cmTC_79d48.dir\build.make:77: CMakeFiles/cmTC_79d48.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_79d48/fast] Error 2
+
+
+File C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcpy
+  return ((int*)(&strlcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strlcat exist failed with the following output:
+Change Dir: C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_aba07/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_aba07.dir\build.make CMakeFiles/cmTC_aba07.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aba07.dir/CheckSymbolExists.c.obj
+C:\msys64\mingw64\bin\gcc.exe   -idirafter "C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_aba07.dir\CheckSymbolExists.c.obj -c "C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'strlcat' undeclared (first use in this function); did you mean 'strncat'?
+   14 |   return ((int*)(&strlcat))[argc];
+      |                   ^~~~~~~
+      |                   strncat
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make[1]: *** [CMakeFiles\cmTC_aba07.dir\build.make:77: CMakeFiles/cmTC_aba07.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_aba07/fast] Error 2
+
+
+File C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcat
+  return ((int*)(&strlcat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the index exist failed with the following output:
+Change Dir: C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_7d18a/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_7d18a.dir\build.make CMakeFiles/cmTC_7d18a.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7d18a.dir/CheckSymbolExists.c.obj
+C:\msys64\mingw64\bin\gcc.exe   -idirafter "C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_7d18a.dir\CheckSymbolExists.c.obj -c "C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'index' undeclared (first use in this function)
+   14 |   return ((int*)(&index))[argc];
+      |                   ^~~~~
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make[1]: *** [CMakeFiles\cmTC_7d18a.dir\build.make:77: CMakeFiles/cmTC_7d18a.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_7d18a/fast] Error 2
+
+
+File C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef index
+  return ((int*)(&index))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the rindex exist failed with the following output:
+Change Dir: C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_2a213/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_2a213.dir\build.make CMakeFiles/cmTC_2a213.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2a213.dir/CheckSymbolExists.c.obj
+C:\msys64\mingw64\bin\gcc.exe   -idirafter "C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_2a213.dir\CheckSymbolExists.c.obj -c "C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'rindex' undeclared (first use in this function)
+   14 |   return ((int*)(&rindex))[argc];
+      |                   ^~~~~~
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make[1]: *** [CMakeFiles\cmTC_2a213.dir\build.make:77: CMakeFiles/cmTC_2a213.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_2a213/fast] Error 2
+
+
+File C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef rindex
+  return ((int*)(&rindex))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _uitoa exist failed with the following output:
+Change Dir: C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_82c2e/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_82c2e.dir\build.make CMakeFiles/cmTC_82c2e.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_82c2e.dir/CheckSymbolExists.c.obj
+C:\msys64\mingw64\bin\gcc.exe   -idirafter "C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_82c2e.dir\CheckSymbolExists.c.obj -c "C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: '_uitoa' undeclared (first use in this function); did you mean '_ultoa'?
+   14 |   return ((int*)(&_uitoa))[argc];
+      |                   ^~~~~~
+      |                   _ultoa
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make[1]: *** [CMakeFiles\cmTC_82c2e.dir\build.make:77: CMakeFiles/cmTC_82c2e.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_82c2e/fast] Error 2
+
+
+File C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _uitoa
+  return ((int*)(&_uitoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strcasestr exist failed with the following output:
+Change Dir: C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_1d3e0/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_1d3e0.dir\build.make CMakeFiles/cmTC_1d3e0.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1d3e0.dir/CheckSymbolExists.c.obj
+C:\msys64\mingw64\bin\gcc.exe   -idirafter "C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_1d3e0.dir\CheckSymbolExists.c.obj -c "C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'strcasestr' undeclared (first use in this function); did you mean 'strcasecmp'?
+   14 |   return ((int*)(&strcasestr))[argc];
+      |                   ^~~~~~~~~~
+      |                   strcasecmp
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make[1]: *** [CMakeFiles\cmTC_1d3e0.dir\build.make:77: CMakeFiles/cmTC_1d3e0.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_1d3e0/fast] Error 2
+
+
+File C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasestr
+  return ((int*)(&strcasestr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcslcat exist failed with the following output:
+Change Dir: C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_2e13b/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_2e13b.dir\build.make CMakeFiles/cmTC_2e13b.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2e13b.dir/CheckSymbolExists.c.obj
+C:\msys64\mingw64\bin\gcc.exe   -idirafter "C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_2e13b.dir\CheckSymbolExists.c.obj -c "C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'wcslcat' undeclared (first use in this function); did you mean 'wcsncat'?
+   14 |   return ((int*)(&wcslcat))[argc];
+      |                   ^~~~~~~
+      |                   wcsncat
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make[1]: *** [CMakeFiles\cmTC_2e13b.dir\build.make:77: CMakeFiles/cmTC_2e13b.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_2e13b/fast] Error 2
+
+
+File C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslcat
+  return ((int*)(&wcslcat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcslcpy exist failed with the following output:
+Change Dir: C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_67085/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_67085.dir\build.make CMakeFiles/cmTC_67085.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_67085.dir/CheckSymbolExists.c.obj
+C:\msys64\mingw64\bin\gcc.exe   -idirafter "C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_67085.dir\CheckSymbolExists.c.obj -c "C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'wcslcpy' undeclared (first use in this function); did you mean 'wcsncpy'?
+   14 |   return ((int*)(&wcslcpy))[argc];
+      |                   ^~~~~~~
+      |                   wcsncpy
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make[1]: *** [CMakeFiles\cmTC_67085.dir\build.make:77: CMakeFiles/cmTC_67085.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_67085/fast] Error 2
+
+
+File C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslcpy
+  return ((int*)(&wcslcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcscasecmp exist failed with the following output:
+Change Dir: C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_2320e/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_2320e.dir\build.make CMakeFiles/cmTC_2320e.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2320e.dir/CheckSymbolExists.c.obj
+C:\msys64\mingw64\bin\gcc.exe   -idirafter "C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_2320e.dir\CheckSymbolExists.c.obj -c "C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'wcscasecmp' undeclared (first use in this function); did you mean 'strcasecmp'?
+   14 |   return ((int*)(&wcscasecmp))[argc];
+      |                   ^~~~~~~~~~
+      |                   strcasecmp
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make[1]: *** [CMakeFiles\cmTC_2320e.dir\build.make:77: CMakeFiles/cmTC_2320e.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_2320e/fast] Error 2
+
+
+File C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcscasecmp
+  return ((int*)(&wcscasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcsncasecmp exist failed with the following output:
+Change Dir: C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_505dd/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_505dd.dir\build.make CMakeFiles/cmTC_505dd.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_505dd.dir/CheckSymbolExists.c.obj
+C:\msys64\mingw64\bin\gcc.exe   -idirafter "C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_505dd.dir\CheckSymbolExists.c.obj -c "C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: error: 'wcsncasecmp' undeclared (first use in this function); did you mean 'strncasecmp'?
+   14 |   return ((int*)(&wcsncasecmp))[argc];
+      |                   ^~~~~~~~~~~
+      |                   strncasecmp
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make[1]: *** [CMakeFiles\cmTC_505dd.dir\build.make:77: CMakeFiles/cmTC_505dd.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_505dd/fast] Error 2
+
+
+File C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsncasecmp
+  return ((int*)(&wcsncasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sigaction exist failed with the following output:
+Change Dir: C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_ad10f/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ad10f.dir\build.make CMakeFiles/cmTC_ad10f.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ad10f.dir/CheckSymbolExists.c.obj
+C:\msys64\mingw64\bin\gcc.exe   -idirafter "C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_ad10f.dir\CheckSymbolExists.c.obj -c "C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: error: 'sigaction' undeclared (first use in this function)
+    8 |   return ((int*)(&sigaction))[argc];
+      |                   ^~~~~~~~~
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make[1]: *** [CMakeFiles\cmTC_ad10f.dir\build.make:77: CMakeFiles/cmTC_ad10f.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_ad10f/fast] Error 2
+
+
+File C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <signal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sigaction
+  return ((int*)(&sigaction))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sysconf exist failed with the following output:
+Change Dir: C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_cfa98/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_cfa98.dir\build.make CMakeFiles/cmTC_cfa98.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cfa98.dir/CheckSymbolExists.c.obj
+C:\msys64\mingw64\bin\gcc.exe   -idirafter "C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_cfa98.dir\CheckSymbolExists.c.obj -c "C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: error: 'sysconf' undeclared (first use in this function)
+    8 |   return ((int*)(&sysconf))[argc];
+      |                   ^~~~~~~
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+mingw32-make[1]: *** [CMakeFiles\cmTC_cfa98.dir\build.make:77: CMakeFiles/cmTC_cfa98.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_cfa98/fast] Error 2
+
+
+File C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysconf
+  return ((int*)(&sysconf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sysctlbyname exist failed with the following output:
+Change Dir: C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_3a16c/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_3a16c.dir\build.make CMakeFiles/cmTC_3a16c.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3a16c.dir/CheckSymbolExists.c.obj
+C:\msys64\mingw64\bin\gcc.exe   -idirafter "C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_3a16c.dir\CheckSymbolExists.c.obj -c "C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:3:10: fatal error: sys/sysctl.h: No such file or directory
+    3 | #include <sys/sysctl.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+mingw32-make[1]: *** [CMakeFiles\cmTC_3a16c.dir\build.make:77: CMakeFiles/cmTC_3a16c.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_3a16c/fast] Error 2
+
+
+File C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/sysctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysctlbyname
+  return ((int*)(&sysctlbyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getauxval exist failed with the following output:
+Change Dir: C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_1f9c6/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_1f9c6.dir\build.make CMakeFiles/cmTC_1f9c6.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1f9c6.dir/CheckSymbolExists.c.obj
+C:\msys64\mingw64\bin\gcc.exe   -idirafter "C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_1f9c6.dir\CheckSymbolExists.c.obj -c "C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:2:10: fatal error: sys/auxv.h: No such file or directory
+    2 | #include <sys/auxv.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+mingw32-make[1]: *** [CMakeFiles\cmTC_1f9c6.dir\build.make:77: CMakeFiles/cmTC_1f9c6.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_1f9c6/fast] Error 2
+
+
+File C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/auxv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getauxval
+  return ((int*)(&getauxval))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the elf_aux_info exist failed with the following output:
+Change Dir: C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_c1a1d/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_c1a1d.dir\build.make CMakeFiles/cmTC_c1a1d.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c1a1d.dir/CheckSymbolExists.c.obj
+C:\msys64\mingw64\bin\gcc.exe   -idirafter "C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_c1a1d.dir\CheckSymbolExists.c.obj -c "C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:2:10: fatal error: sys/auxv.h: No such file or directory
+    2 | #include <sys/auxv.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+mingw32-make[1]: *** [CMakeFiles\cmTC_c1a1d.dir\build.make:77: CMakeFiles/cmTC_c1a1d.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_c1a1d/fast] Error 2
+
+
+File C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/auxv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef elf_aux_info
+  return ((int*)(&elf_aux_info))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the poll exist failed with the following output:
+Change Dir: C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_ec858/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ec858.dir\build.make CMakeFiles/cmTC_ec858.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ec858.dir/CheckSymbolExists.c.obj
+C:\msys64\mingw64\bin\gcc.exe   -idirafter "C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_ec858.dir\CheckSymbolExists.c.obj -c "C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:2:10: fatal error: poll.h: No such file or directory
+    2 | #include <poll.h>
+      |          ^~~~~~~~
+compilation terminated.
+mingw32-make[1]: *** [CMakeFiles\cmTC_ec858.dir\build.make:77: CMakeFiles/cmTC_ec858.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_ec858/fast] Error 2
+
+
+File C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <poll.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef poll
+  return ((int*)(&poll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function iconv_open exists in the iconv failed with the following output:
+Change Dir: C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_ec23d/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ec23d.dir\build.make CMakeFiles/cmTC_ec23d.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ec23d.dir/CheckFunctionExists.c.obj
+C:\msys64\mingw64\bin\gcc.exe   -idirafter "C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/SDL/src/video/khronos" -DCHECK_FUNCTION_EXISTS=iconv_open  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_ec23d.dir\CheckFunctionExists.c.obj -c "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckFunctionExists.c"
+Linking C executable cmTC_ec23d.exe
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ec23d.dir\link.txt --verbose=1
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_ec23d.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\cmTC_ec23d.dir/objects.a @CMakeFiles\cmTC_ec23d.dir\objects1.rsp
+C:\msys64\mingw64\bin\gcc.exe  -idirafter "C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/SDL/src/video/khronos" -DCHECK_FUNCTION_EXISTS=iconv_open  -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_ec23d.dir/objects.a -Wl,--no-whole-archive -o cmTC_ec23d.exe -Wl,--out-implib,libcmTC_ec23d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_ec23d.dir\linklibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: CMakeFiles\cmTC_ec23d.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `iconv_open'
+collect2.exe: error: ld returned 1 exit status
+mingw32-make[1]: *** [CMakeFiles\cmTC_ec23d.dir\build.make:100: cmTC_ec23d.exe] Error 1
+mingw32-make[1]: Leaving directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_ec23d/fast] Error 2
+
+
+
+Determining if the function iconv_open exists in the c failed with the following output:
+Change Dir: C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_82956/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_82956.dir\build.make CMakeFiles/cmTC_82956.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_82956.dir/CheckFunctionExists.c.obj
+C:\msys64\mingw64\bin\gcc.exe   -idirafter "C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/SDL/src/video/khronos" -DCHECK_FUNCTION_EXISTS=iconv_open  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_82956.dir\CheckFunctionExists.c.obj -c "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckFunctionExists.c"
+Linking C executable cmTC_82956.exe
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_82956.dir\link.txt --verbose=1
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_82956.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\cmTC_82956.dir/objects.a @CMakeFiles\cmTC_82956.dir\objects1.rsp
+C:\msys64\mingw64\bin\gcc.exe  -idirafter "C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/SDL/src/video/khronos" -DCHECK_FUNCTION_EXISTS=iconv_open  -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_82956.dir/objects.a -Wl,--no-whole-archive -o cmTC_82956.exe -Wl,--out-implib,libcmTC_82956.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_82956.dir\linklibs.rsp
+C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lc: No such file or directory
+collect2.exe: error: ld returned 1 exit status
+mingw32-make[1]: *** [CMakeFiles\cmTC_82956.dir\build.make:100: cmTC_82956.exe] Error 1
+mingw32-make[1]: Leaving directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_82956/fast] Error 2
+
+
+
+Determining if the include file alloca.h exists failed with the following output:
+Change Dir: C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_ebbb5/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ebbb5.dir\build.make CMakeFiles/cmTC_ebbb5.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ebbb5.dir/CheckIncludeFile.c.obj
+C:\msys64\mingw64\bin\gcc.exe   -idirafter "C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_ebbb5.dir\CheckIncludeFile.c.obj -c "C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:10: fatal error: alloca.h: No such file or directory
+    1 | #include <alloca.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+mingw32-make[1]: *** [CMakeFiles\cmTC_ebbb5.dir\build.make:77: CMakeFiles/cmTC_ebbb5.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_ebbb5/fast] Error 2
+
+
+
+Determining if the alloca exist failed with the following output:
+Change Dir: C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_f5691/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f5691.dir\build.make CMakeFiles/cmTC_f5691.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f5691.dir/CheckSymbolExists.c.obj
+C:\msys64\mingw64\bin\gcc.exe   -idirafter "C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_f5691.dir\CheckSymbolExists.c.obj -c "C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:2:10: fatal error: alloca.h: No such file or directory
+    2 | #include <alloca.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+mingw32-make[1]: *** [CMakeFiles\cmTC_f5691.dir\build.make:77: CMakeFiles/cmTC_f5691.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_f5691/fast] Error 2
+
+
+File C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef alloca
+  return ((int*)(&alloca))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_SA_SIGACTION failed with the following output:
+Change Dir: C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_813c9/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_813c9.dir\build.make CMakeFiles/cmTC_813c9.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_813c9.dir/src.c.obj
+C:\msys64\mingw64\bin\gcc.exe -DHAVE_SA_SIGACTION  -idirafter "C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_813c9.dir\src.c.obj -c "C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\src.c"
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\src.c: In function 'main':
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\src.c:6:39: error: invalid use of undefined type 'struct sigaction'
+    6 |   (void)sizeof(((struct sigaction *)0)->sa_sigaction);
+      |                                       ^~
+mingw32-make[1]: *** [CMakeFiles\cmTC_813c9.dir\build.make:77: CMakeFiles/cmTC_813c9.dir/src.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_813c9/fast] Error 2
+
+
+Source file was:
+
+#include <signal.h>
+
+int main()
+{
+  (void)sizeof(((struct sigaction *)0)->sa_sigaction);
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_XINPUT_GAMEPAD_EX failed with the following output:
+Change Dir: C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_a5ad1/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_a5ad1.dir\build.make CMakeFiles/cmTC_a5ad1.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a5ad1.dir/src.c.obj
+C:\msys64\mingw64\bin\gcc.exe -DHAVE_XINPUT_GAMEPAD_EX  -idirafter "C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_a5ad1.dir\src.c.obj -c "C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\src.c"
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\src.c:4:7: error: unknown type name 'XINPUT_GAMEPAD_EX'; did you mean 'XINPUT_GAMEPAD_X'?
+    4 |       XINPUT_GAMEPAD_EX x1;
+      |       ^~~~~~~~~~~~~~~~~
+      |       XINPUT_GAMEPAD_X
+mingw32-make[1]: *** [CMakeFiles\cmTC_a5ad1.dir\build.make:77: CMakeFiles/cmTC_a5ad1.dir/src.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_a5ad1/fast] Error 2
+
+
+Source file was:
+
+      #include <windows.h>
+      #include <xinput.h>
+      XINPUT_GAMEPAD_EX x1;
+      int main(int argc, char **argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_XINPUT_STATE_EX failed with the following output:
+Change Dir: C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_4f28b/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_4f28b.dir\build.make CMakeFiles/cmTC_4f28b.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4f28b.dir/src.c.obj
+C:\msys64\mingw64\bin\gcc.exe -DHAVE_XINPUT_STATE_EX  -idirafter "C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/SDL/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_4f28b.dir\src.c.obj -c "C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\src.c"
+C:\Users\pauli\Desktop\Studia\Semestr 2\Programownie\tp_projekt_3\build\CMakeFiles\CMakeTmp\src.c:4:7: error: unknown type name 'XINPUT_STATE_EX'; did you mean 'XINPUT_STATE'?
+    4 |       XINPUT_STATE_EX s1;
+      |       ^~~~~~~~~~~~~~~
+      |       XINPUT_STATE
+mingw32-make[1]: *** [CMakeFiles\cmTC_4f28b.dir\build.make:77: CMakeFiles/cmTC_4f28b.dir/src.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'C:/Users/pauli/Desktop/Studia/Semestr 2/Programownie/tp_projekt_3/build/CMakeFiles/CMakeTmp'
+mingw32-make: *** [Makefile:126: cmTC_4f28b/fast] Error 2
+
+
+Source file was:
+
+      #include <windows.h>
+      #include <xinput.h>
+      XINPUT_STATE_EX s1;
+      int main(int argc, char **argv) { return 0; }
